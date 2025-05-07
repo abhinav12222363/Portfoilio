@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/abhinav12222363/Portfoilio'
+                git branch: 'main', url: 'https://github.com/abhinav12222363/Portfoilio'
             }
         }
 
